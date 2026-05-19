@@ -525,7 +525,33 @@ const de: Locale = {
   language: en.language,
   hero: { label: "Bekleidungs-Einkaufs- & Liaison-Büro", titleA: "Weichheit,", titleB1: "die man", titleB2: "Trägt.", subtitle: "Gefertigt für Komfort. Gestaltet für das Leben.", cta: "Kollektionen Entdecken" },
   catalog: { eyebrow: "Unsere Kollektionen", title: "Globaler Bekleidungskatalog", description: "Eine kuratierte Auswahl unseres Einkaufs- & Liaison-Büros — für internationale Marken, die kategorieübergreifend sourcen. Strick bleibt unsere Kernkompetenz, mit aktiver Kapazität in Webware, Sweater, Leder und Lingerie.", ladies: "Damen-Katalog", mens: "Herren-Katalog", children: "Kinder-Katalog", filterLabel: "Filter", filterByType: "Nach Produkttyp filtern", searchPlaceholder: "Nach Name, Stoff oder Stil suchen…", productsFound: "Produkte gefunden", productFound: "Produkt gefunden", loadMore: "Mehr laden", showing: "Zeige", of: "von", more: "weitere", noResults: "Noch keine Produkte in dieser Kollektion.", noMatch: "Keine Produkte für \"{{query}}\".", loadError: "Katalog kann derzeit nicht geladen werden." },
-  capabilities: en.capabilities,
+  capabilities: {
+    ...en.capabilities,
+    eyebrow: "Was wir tun",
+    title1: "Ein Einkaufs- & Verbindungsbüro",
+    title2: "für globale Marken",
+    description: "Von der Beschaffung und Produktentwicklung über die Produktionsüberwachung bis hin zum pünktlichen Versand – wir verbinden internationale Einkäufer mit vertrauenswürdigen Herstellern in Bangladesch. Strickwaren sind unsere Kernstärke; unser Netzwerk umfasst Webwaren, Pullover, Leder und Dessous.",
+    collage: {
+      sourcingEyebrow: "Beschaffung & Entwicklung",
+      sourcingTitle: "Kuratierte Stoffe. Ehrliche Tech Packs. Echte Muster.",
+      productionEyebrow: "Produktionsüberwachung",
+      productionTitle: "Bei jedem Auftrag direkt vor Ort in der Fabrik.",
+    },
+    stats: { 
+      gsm: "GSM-Stoffbereich", 
+      countries: "Exportziele", 
+      categories: "Bekleidungskategorien", 
+      response: "Reaktionszeit" 
+    },
+    pillars: {
+      sourcing: { title: "Strategische Beschaffung", desc: "Vertrauenswürdige Spinnerei- und Fabrikpartner in den Bereichen Strick, Webwaren, Pullover, Leder und Dessous." },
+      development: { title: "Produktentwicklung", desc: "Von Moodboards und Tech Packs bis hin zu Labordips, Passformmustern und Freigaben vor der Produktion." },
+      production: { title: "Produktionsverbindung", desc: "Koordination vor Ort, tägliche Updates und proaktive Problemlösung in jeder Phase." },
+      quality: { title: "Qualitätssicherung", desc: "Mehrstufige In-Line- und Endkontrollen, die auf internationale Einkäuferstandards abgestimmt sind." },
+      logistics: { title: "Versand & Logistik", desc: "Dokumentation, Frachtbuchung und pünktliche Lieferung an Häfen weltweit." },
+      value: { title: "Kommerzieller Wert", desc: "Transparente Kalkulation, flexible Mindestbestellmengen (MOQs) und eine Preisgestaltung, die sowohl Qualität als auch Marge respektiert." },
+    },
+  },
   exportMap: {
     eyebrow: "Globale Reichweite", title: "Wo wir sourcen & liefern",
     description: "Gefertigt in Bangladesch, geliefert an anspruchsvolle Käufer in Europa, Nordamerika, dem Nahen Osten, Ozeanien, Lateinamerika und Afrika.",
@@ -617,7 +643,33 @@ const ar: Locale = {
   language: en.language,
   hero: { label: "مكتب شراء وتنسيق ملابس", titleA: "نعومة", titleB1: "يمكنك", titleB2: "ارتداؤها.", subtitle: "صُنعت للراحة. مُصمَّمة للحياة.", cta: "استكشف مجموعاتنا" },
   catalog: { eyebrow: "مجموعاتنا", title: "كتالوج الملابس العالمي", description: "اختيار منسق من مكتب الشراء والتنسيق لدينا.", ladies: "كتالوج النساء", mens: "كتالوج الرجال", children: "كتالوج الأطفال", filterLabel: "تصفية", filterByType: "تصفية حسب نوع المنتج", searchPlaceholder: "ابحث بالاسم أو القماش…", productsFound: "منتج", productFound: "منتج", loadMore: "تحميل المزيد", showing: "عرض", of: "من", more: "أخرى", noResults: "لا توجد منتجات في هذه المجموعة بعد.", noMatch: "لا توجد منتجات مطابقة لـ \"{{query}}\".", loadError: "تعذّر تحميل الكتالوج." },
-  capabilities: en.capabilities,
+  capabilities: {
+    ...en.capabilities,
+    eyebrow: "ماذا نفعل",
+    title1: "مكتب شراء وتنسيق",
+    title2: "للعلامات التجارية العالمية",
+    description: "من مصادر التوريد وتطوير المنتجات إلى الإشراف على الإنتاج والشحن في الوقت المحدد — نحن نربط المشترين الدوليين بمصانع التصنيع الموثوقة في بنغلاديش. تعتبر المنسوجات (Knit) قوتنا الأساسية، وتمتد شبكتنا لتشمل المنسوجات المطرزة، والسترات، والجلود، والملابس الداخلية.",
+    collage: {
+      sourcingEyebrow: "التوريد والتطوير",
+      sourcingTitle: "أقمشة مختارة بعناية. حزم تقنية دقيقة. عينات حقيقية.",
+      productionEyebrow: "الإشراف على الإنتاج",
+      productionTitle: "متواجدون في موقع العمل مع كل طلبية.",
+    },
+    stats: { 
+      gsm: "نطاق وزن القماش (GSM)", 
+      countries: "وجهات التصدير", 
+      categories: "فئات الملابس", 
+      response: "وقت الاستجابة" 
+    },
+    pillars: {
+      sourcing: { title: "التوريد الاستراتيجي", desc: "شركاء موثوقون من المصانع والمغازل في مجالات الحياكة، النسيج، السترات، الجلود، والملابس الداخلية." },
+      development: { title: "تطوير المنتجات", desc: "من لوحات الأفكار والحزم التقنية إلى اختبارات الألوان، عينات القياس، واعتمادات ما قبل الإنتاج." },
+      production: { title: "التنسيق الإنتاجي", desc: "تنسيق ميداني، تحديثات يومية، وحل استباقي للمشكلات في كل مرحلة." },
+      quality: { title: "ضمان الجودة", desc: "فحص متعدد النقاط أثناء الإنتاج وفي المرحلة النهائية بما يتماشى مع معايير المشترين الدوليين." },
+      logistics: { title: "الشحن واللوجستيات", desc: "إعداد المستندات، حجز الشحن، والتسليم في الوقت المحدد إلى الموانئ في جميع أنحاء العالم." },
+      value: { title: "القيمة التجارية", desc: "تخطيط تكاليف شفاف، حد أدنى مرن للطلبيات (MOQs)، وأسعار تحترم الجودة وهامش الربح معاً." },
+    },
+  },
   exportMap: {
     eyebrow: "الوصول العالمي", title: "أين نوّرد ونشحن",
     description: "صُنع في بنغلاديش، ويُسلَّم لمشترين متميزين عبر أوروبا وأمريكا الشمالية والشرق الأوسط وأوقيانوسيا وأمريكا اللاتينية وأفريقيا.",
