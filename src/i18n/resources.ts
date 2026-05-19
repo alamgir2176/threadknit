@@ -15,9 +15,9 @@ const en = {
   language: { label: "Language", en: "English", zh: "中文", es: "Español", de: "Deutsch", ar: "العربية" },
   hero: {
     label: "Sourcing Excellence",
-    titleA: "Precision.",
-    titleB1: "Partnership.",
-    titleB2: "Performance.",
+    titleA: "Sourcing That",
+    titleB1: "Moves the",
+    titleB2: "World Forward.",
     subtitle: "Your Strategic Apparel Sourcing Partner, Worldwide.",
     cta: "Explore Our Collections",
   },
