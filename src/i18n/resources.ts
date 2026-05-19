@@ -326,7 +326,7 @@ const en = {
     desc: "From initial brief to final shipment — we manage every detail so your brand receives exactly what was agreed, on time, every time.",
     button: "Start a Conversation",
   },
-};
+},
 
 // Other languages: loosened typing so per-language coverage can be partial.
 // Missing nested keys fall back to English automatically (fallbackLng: "en").
