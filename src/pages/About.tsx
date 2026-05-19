@@ -52,7 +52,7 @@ const About = () => {
         path="/about"
       />
       {/* Hero */}
-      <section ref={heroRef} className="relative h-[60vh] min-h-[450px] flex items-center overflow-hidden pt-20 lg:pt-28"">
+      <section ref={heroRef} className="relative h-[60vh] min-h-[450px] flex items-center overflow-hidden pt-20 lg:pt-28">
         <motion.div className="absolute inset-0" style={{ y: heroY }}>
           <img src={fabricTexture} alt="Premium cotton fabric texture" className="w-full h-full object-cover scale-110" />
         </motion.div>
