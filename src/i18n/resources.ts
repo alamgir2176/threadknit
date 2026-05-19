@@ -10,7 +10,7 @@ const en = {
     query: "Query",
     queryFormTitle: "Send Us a Query",
     queryFormDesc: "We'd love to hear from you. Fill out the form below and our team will get back to you shortly.",
-    queryFormTagline: "Your Strategic Apparel Sourcing Partner",
+    queryFormTagline: "End-to-End Global Apparel Sourcing Excellence",
   },
   language: { label: "Language", en: "English", zh: "中文", es: "Español", de: "Deutsch", ar: "العربية" },
   hero: {
@@ -405,7 +405,7 @@ const es: Locale = {
   ...en,
   nav: { home: "Inicio", about: "Sobre Nosotros", contact: "Contacto", sustainability: "Sostenibilidad", catalog: "Catálogo", query: "Consulta", queryFormTitle: "Envíanos una Consulta", queryFormDesc: "Nos encantaría saber de ti. Completa el formulario y nuestro equipo te responderá pronto.", queryFormTagline: "Manufactura de Prendas Premium" },
   language: en.language,
-  hero: { label: "Excelencia integral en el abastecimiento global de prendas de vestir", titleA: "Suavidad", titleB1: "que puedes", titleB2: "Vestir.", subtitle: "Hecho para la comodidad. Diseñado para la vida.", cta: "Explora Nuestras Colecciones" },
+  hero: { label: "Excelencia en Abastecimiento Global", titleA: "Suavidad", titleB1: "que puedes", titleB2: "Vestir.", subtitle: "Hecho para la comodidad. Diseñado para la vida.", cta: "Explora Nuestras Colecciones" },
   catalog: { eyebrow: "Nuestras Colecciones", title: "Catálogo Global de Prendas", description: "Una selección curada de nuestra oficina de compras y enlace — pensada para marcas internacionales que abastecen múltiples categorías. El punto sigue siendo nuestra fortaleza principal, con capacidad activa en tejido plano, suéter, cuero y lencería.", ladies: "Catálogo de Mujer", mens: "Catálogo de Hombre", children: "Catálogo Infantil", filterLabel: "Filtrar", filterByType: "Filtrar por Tipo de Producto", searchPlaceholder: "Buscar por nombre, tejido o estilo…", productsFound: "productos encontrados", productFound: "producto encontrado", loadMore: "Cargar Más", showing: "Mostrando", of: "de", more: "más", noResults: "Aún no hay productos en esta colección.", noMatch: "Sin productos que coincidan con \"{{query}}\". Prueba otro término.", loadError: "No se pudo cargar el catálogo. Actualiza la página." },
  capabilities: {
     ...en.capabilities,
@@ -523,7 +523,7 @@ const de: Locale = {
   ...en,
   nav: { home: "Startseite", about: "Über Uns", contact: "Kontakt", sustainability: "Nachhaltigkeit", catalog: "Katalog", query: "Anfrage", queryFormTitle: "Senden Sie uns eine Anfrage", queryFormDesc: "Wir freuen uns auf Ihre Nachricht. Füllen Sie das Formular aus und unser Team meldet sich umgehend.", queryFormTagline: "Premium-Bekleidungsherstellung" },
   language: en.language,
-  hero: { label: "Ganzheitliche Exzellenz in der globalen Bekleidungsbeschaffung", titleA: "Weichheit,", titleB1: "die man", titleB2: "Trägt.", subtitle: "Gefertigt für Komfort. Gestaltet für das Leben.", cta: "Kollektionen Entdecken" },
+  hero: { label: "Exzellenz in der globalen Beschaffung", titleA: "Weichheit,", titleB1: "die man", titleB2: "Trägt.", subtitle: "Gefertigt für Komfort. Gestaltet für das Leben.", cta: "Kollektionen Entdecken" },
   catalog: { eyebrow: "Unsere Kollektionen", title: "Globaler Bekleidungskatalog", description: "Eine kuratierte Auswahl unseres Einkaufs- & Liaison-Büros — für internationale Marken, die kategorieübergreifend sourcen. Strick bleibt unsere Kernkompetenz, mit aktiver Kapazität in Webware, Sweater, Leder und Lingerie.", ladies: "Damen-Katalog", mens: "Herren-Katalog", children: "Kinder-Katalog", filterLabel: "Filter", filterByType: "Nach Produkttyp filtern", searchPlaceholder: "Nach Name, Stoff oder Stil suchen…", productsFound: "Produkte gefunden", productFound: "Produkt gefunden", loadMore: "Mehr laden", showing: "Zeige", of: "von", more: "weitere", noResults: "Noch keine Produkte in dieser Kollektion.", noMatch: "Keine Produkte für \"{{query}}\".", loadError: "Katalog kann derzeit nicht geladen werden." },
   capabilities: {
     ...en.capabilities,
@@ -641,7 +641,7 @@ const ar: Locale = {
   ...en,
   nav: { home: "الرئيسية", about: "من نحن", contact: "تواصل معنا", sustainability: "الاستدامة", catalog: "الكتالوج", query: "استفسار", queryFormTitle: "أرسل لنا استفسارًا", queryFormDesc: "يسعدنا تواصلك معنا.", queryFormTagline: "تصنيع ملابس فاخرة" },
   language: en.language,
-  hero: { label: "التميز المتكامل في توريد الملابس العالمية من البداية وحتى التسليم", titleA: "نعومة", titleB1: "يمكنك", titleB2: "ارتداؤها.", subtitle: "صُنعت للراحة. مُصمَّمة للحياة.", cta: "استكشف مجموعاتنا" },
+  hero: { label: "التميز في التوريد العالمي", titleA: "نعومة", titleB1: "يمكنك", titleB2: "ارتداؤها.", subtitle: "صُنعت للراحة. مُصمَّمة للحياة.", cta: "استكشف مجموعاتنا" },
   catalog: { eyebrow: "مجموعاتنا", title: "كتالوج الملابس العالمي", description: "اختيار منسق من مكتب الشراء والتنسيق لدينا.", ladies: "كتالوج النساء", mens: "كتالوج الرجال", children: "كتالوج الأطفال", filterLabel: "تصفية", filterByType: "تصفية حسب نوع المنتج", searchPlaceholder: "ابحث بالاسم أو القماش…", productsFound: "منتج", productFound: "منتج", loadMore: "تحميل المزيد", showing: "عرض", of: "من", more: "أخرى", noResults: "لا توجد منتجات في هذه المجموعة بعد.", noMatch: "لا توجد منتجات مطابقة لـ \"{{query}}\".", loadError: "تعذّر تحميل الكتالوج." },
   capabilities: {
     ...en.capabilities,
@@ -759,7 +759,7 @@ const ko: Locale = {
   ...en,
   nav: { home: "홈", about: "소개", contact: "문의", sustainability: "지속가능성", catalog: "카탈로그", query: "문의하기", queryFormTitle: "문의 보내기", queryFormDesc: "연락해 주세요.", queryFormTagline: "프리미엄 의류 제조" },
   language: en.language,
-  hero: { label: "글로벌 의류 소싱의 시작부터 끝까지, 완벽함을 더하다", titleA: "부드러움", titleB1: "입을 수 있는", titleB2: "편안함.", subtitle: "편안함을 위해 만들어졌습니다.", cta: "컬렉션 둘러보기" },
+  hero: { label: "글로벌 소싱 엑설런스", titleA: "부드러움", titleB1: "입을 수 있는", titleB2: "편안함.", subtitle: "편안함을 위해 만들어졌습니다.", cta: "컬렉션 둘러보기" },
   catalog: { eyebrow: "우리의 컬렉션", title: "글로벌 의류 카탈로그", description: "바잉 & 리에종 하우스의 큐레이션.", ladies: "여성 카탈로그", mens: "남성 카탈로그", children: "키즈 카탈로그", filterLabel: "필터", filterByType: "제품 유형으로 필터", searchPlaceholder: "이름, 원단, 스타일로 검색…", productsFound: "개 제품", productFound: "개 제품", loadMore: "더 보기", showing: "표시", of: "/", more: "추가", noResults: "이 컬렉션에는 아직 제품이 없습니다.", noMatch: "\"{{query}}\" 와 일치하는 제품이 없습니다.", loadError: "카탈로그를 불러올 수 없습니다." },
  capabilities: {
     ...en.capabilities,
@@ -877,7 +877,7 @@ const ja: Locale = {
   ...en,
   nav: { home: "ホーム", about: "会社概要", contact: "お問い合わせ", sustainability: "サステナビリティ", catalog: "カタログ", query: "お問い合わせ", queryFormTitle: "お問い合わせを送信", queryFormDesc: "お気軽にご連絡ください。", queryFormTagline: "プレミアム衣料品製造" },
   language: en.language,
-  hero: { label: "グローバルアパレル調達における一貫した卓越性", titleA: "やわらかさ", titleB1: "着られる", titleB2: "心地よさ。", subtitle: "快適さのために。", cta: "コレクションを見る" },
+  hero: { label: "グローバル調達の卓越性", titleA: "やわらかさ", titleB1: "着られる", titleB2: "心地よさ。", subtitle: "快適さのために。", cta: "コレクションを見る" },
   catalog: { eyebrow: "私たちのコレクション", title: "グローバルアパレルカタログ", description: "バイング & リエゾンハウスの厳選。", ladies: "レディースカタログ", mens: "メンズカタログ", children: "キッズカタログ", filterLabel: "フィルター", filterByType: "商品タイプで絞り込み", searchPlaceholder: "名前、生地、スタイルで検索…", productsFound: "件の商品", productFound: "件の商品", loadMore: "もっと見る", showing: "表示中", of: "/", more: "以上", noResults: "このコレクションにはまだ商品がありません。", noMatch: "「{{query}}」に一致する商品がありません。", loadError: "カタログを読み込めません。" },
   capabilities: {
     ...en.capabilities,
