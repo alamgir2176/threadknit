@@ -124,7 +124,7 @@ const About = () => {
             </div>
             <motion.div {...fadeUp} transition={{ delay: 0.3 }} className="mt-8 p-6 border-l-2 border-accent bg-accent/5">
               <p className="font-serif text-lg italic text-foreground/80 leading-relaxed">
-                "Softness You Can Wear. Crafted for Comfort. Styled for Life."
+                "Every order we handle carries your brand's name. We treat that responsibility as our own."
               </p>
               <p className="font-sans text-[10px] uppercase tracking-wider text-muted-foreground mt-3">— {t("about.story.promise")}</p>
             </motion.div>
