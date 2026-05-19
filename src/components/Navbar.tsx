@@ -36,7 +36,7 @@ const Navbar = () => {
 
   useEffect(() => setMobileOpen(false), [location]);
 
-  const isTransparent = isHome && !scrolled;
+  const isTransparent = !scrolled;
 
   return (
     <>
