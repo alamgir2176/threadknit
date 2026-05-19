@@ -135,13 +135,13 @@ const Navbar = () => {
                 {navLinks.map((link) => {
                   const isActive =
                     link.type === "route" && location.pathname === link.to;
-                   const cls = font-sans text-sm font-medium uppercase tracking-wide transition-colors ${
+                   const cls = `font-sans text-sm font-medium uppercase tracking-wide transition-colors ${
             isActive 
               ? "text-accent"
               : isTransparent
               ? "text-cream hover:text-accent"
               : "text-foreground/85"
-          };
+         }`;
                   return (
                     <Link key={link.to} to={link.to} className={cls}>
                       {link.label}
