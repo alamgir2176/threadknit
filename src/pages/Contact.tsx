@@ -58,7 +58,7 @@ const Contact = () => {
         path="/contact"
       />
       {/* Hero */}
-      <section className="bg-primary text-primary-foreground py-20 md:py-28">
+      <section className="bg-primary text-primary-foreground pt-32 pb-16 md:pt-44 md:pb-24">
         <div className="container mx-auto px-6">
           <motion.div initial={{ width: 0 }} animate={{ width: "3rem" }} transition={{ delay: 0.2, duration: 0.8 }} className="h-px bg-accent mb-8" />
           <motion.p {...fadeUp} className="font-sans text-[11px] uppercase tracking-[0.4em] text-accent mb-4">
