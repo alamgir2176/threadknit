@@ -155,8 +155,8 @@ const en = {
   categories: { all: "All Collections", ladies: "Women's Wear", mens: "Men's Wear", children: "Kid's Wear" },
   productCard: { specs: "Technical Specs", fabrication: "Fabrication", color: "Color", print: "Print", viewSpecs: "View specs", hideSpecs: "Hide specs", productName: "Product Name", wearCategory: "Wear Category", allTypes: "All Types" },
   footer: {
-    motto: "\"Softness You Can Wear. Crafted for Comfort. Styled for Life.\"",
-    tagline: "A Bangladesh-based garment buying & liaison house — knit specialists with sourcing capability across woven, sweater, leather and lingerie.",
+    motto: "\"Sourcing That Moves the World Forward. Your Strategic Apparel Partner, Worldwide.\"",
+    tagline: "Bridging global buyers with Bangladesh's best — specialists in knit, woven, sweater, leather and lingerie sourcing.",
     navigation: "Navigation",
     productCatalog: "Product Catalog",
     aboutUs: "About Us",
@@ -169,7 +169,7 @@ const en = {
     catalog: "Catalog",
     contactHeading: "Contact",
     followUs: "Follow Us",
-    rights: "All rights reserved. Premium Knitwear Manufacturer.",
+    rights: "All rights reserved. Global Apparel Sourcing & Liaison House.",
     backToTop: "Back to top",
     madeWith: "Crafted with care in Bangladesh",
   },
@@ -177,7 +177,7 @@ const en = {
     eyebrow: "Get In Touch",
     titleA: "Let's Build Your",
     titleB: "Collection",
-    subtitle: "Ready to bring your knitwear vision to life? Reach out for samples, pricing, or partnership discussions. We'd love to hear from you.",
+    subtitle: "Ready to streamline your apparel sourcing? Reach out for samples, pricing, or partnership discussions — we're here to make every order count.",
     role: "Business Development & Client Relations",
     info: {
       email: "Email", emailDesc: "Send us an email anytime",
