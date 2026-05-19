@@ -407,7 +407,33 @@ const es: Locale = {
   language: en.language,
   hero: { label: "Casa de Compras y Enlace de Prendas", titleA: "Suavidad", titleB1: "que puedes", titleB2: "Vestir.", subtitle: "Hecho para la comodidad. Diseñado para la vida.", cta: "Explora Nuestras Colecciones" },
   catalog: { eyebrow: "Nuestras Colecciones", title: "Catálogo Global de Prendas", description: "Una selección curada de nuestra oficina de compras y enlace — pensada para marcas internacionales que abastecen múltiples categorías. El punto sigue siendo nuestra fortaleza principal, con capacidad activa en tejido plano, suéter, cuero y lencería.", ladies: "Catálogo de Mujer", mens: "Catálogo de Hombre", children: "Catálogo Infantil", filterLabel: "Filtrar", filterByType: "Filtrar por Tipo de Producto", searchPlaceholder: "Buscar por nombre, tejido o estilo…", productsFound: "productos encontrados", productFound: "producto encontrado", loadMore: "Cargar Más", showing: "Mostrando", of: "de", more: "más", noResults: "Aún no hay productos en esta colección.", noMatch: "Sin productos que coincidan con \"{{query}}\". Prueba otro término.", loadError: "No se pudo cargar el catálogo. Actualiza la página." },
-  capabilities: en.capabilities,
+ capabilities: {
+    ...en.capabilities,
+    eyebrow: "Qué Hacemos",
+    title1: "Una Oficina de Compras y Enlace",
+    title2: "para Marcas Globales",
+    description: "Desde el abastecimiento y desarrollo de productos hasta la supervisión de producción y embarques a tiempo — conectamos a compradores internacionales con manufactura confiable en Bangladesh. El tejido de punto es nuestra fortaleza principal; nuestra red abarca tejido plano, suéter, cuero y lencería.",
+    collage: {
+      sourcingEyebrow: "Abastecimiento y Desarrollo",
+      sourcingTitle: "Telas curadas. Fichas técnicas honestas. Muestras reales.",
+      productionEyebrow: "Supervisión de Producción",
+      productionTitle: "En la planta con cada pedido.",
+    },
+    stats: { 
+      gsm: "Rango de Gramaje (GSM)", 
+      countries: "Destinos de Exportación", 
+      categories: "Categorías de Prendas", 
+      response: "Tiempo de Respuesta" 
+    },
+    pillars: {
+      sourcing: { title: "Abastecimiento Estratégico", desc: "Socios confiables de tejedurías y fábricas en tejido de punto, plano, suéter, cuero y lencería." },
+      development: { title: "Desarrollo de Productos", desc: "Desde paneles de inspiración y fichas técnicas hasta pruebas de color, muestras de ajuste y aprobaciones de preproducción." },
+      production: { title: "Enlace de Producción", desc: "Coordinación en el sitio, actualizaciones diarias y resolución proactiva de problemas en cada etapa." },
+      quality: { title: "Aseguramiento de Calidad", desc: "Inspecciones multinivel en línea y finales alineadas con los estándares de los compradores internacionales." },
+      logistics: { title: "Envío y Logística", desc: "Documentación, reserva de fletes y entrega a tiempo en puertos de todo el mundo." },
+      value: { title: "Valor Comercial", desc: "Costeo transparente, cantidades mínimas de pedido (MOQ) flexibles y precios que respetan tanto la calidad como el margen." },
+    },
+  },
   exportMap: {
     eyebrow: "Alcance Global", title: "Dónde Abastecemos y Enviamos",
     description: "Confeccionado en Bangladés, entregado a compradores exigentes en Europa, Norteamérica, Medio Oriente, Oceanía, América Latina y África.",
