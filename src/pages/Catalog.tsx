@@ -88,7 +88,7 @@ const Catalog = () => {
 
       {/* Page Hero */}
       <section className="relative pt-32 pb-24 overflow-hidden text-primary-foreground">
-        <div className="container mx-auto px-4 sm:px-6">
+         <div className="absolute inset-0">
           <motion.div
             initial={{ width: 0 }}
             animate={{ width: "3rem" }}
