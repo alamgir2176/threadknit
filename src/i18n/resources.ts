@@ -17,7 +17,7 @@ const en = {
     label: "Sourcing Excellence",
     titleA: "Precision.",
     titleB1: "Partnership.",
-    titleB2: "Partnership.",
+    titleB2: "Performance.",
     subtitle: "Your Strategic Apparel Sourcing Partner, Worldwide.",
     cta: "Explore Our Collections",
   },
