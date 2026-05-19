@@ -15,10 +15,10 @@ const en = {
   language: { label: "Language", en: "English", zh: "中文", es: "Español", de: "Deutsch", ar: "العربية" },
   hero: {
     label: "Sourcing Excellence",
-    titleA: "Softness",
-    titleB1: "You Can",
-    titleB2: "Wear.",
-    subtitle: "Crafted for Comfort. Styled for Life.",
+    titleA: "Precision.",
+    titleB1: "Partnership.",
+    titleB2: "Partnership.",
+    subtitle: "Your Strategic Apparel Sourcing Partner, Worldwide.",
     cta: "Explore Our Collections",
   },
   catalog: {
