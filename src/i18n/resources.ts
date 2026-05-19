@@ -14,7 +14,7 @@ const en = {
   },
   language: { label: "Language", en: "English", zh: "中文", es: "Español", de: "Deutsch", ar: "العربية" },
   hero: {
-    label: "End-to-End Global Apparel Sourcing Excellence",
+    label: "Sourcing Excellence",
     titleA: "Softness",
     titleB1: "You Can",
     titleB2: "Wear.",
@@ -298,7 +298,7 @@ const zh: Locale = {
   ...en,
   nav: { home: "首页", about: "关于我们", contact: "联系我们", sustainability: "可持续发展", catalog: "产品目录", query: "咨询", queryFormTitle: "向我们发送咨询", queryFormDesc: "我们期待您的来信。请填写下方表单,我们的团队将尽快回复您。", queryFormTagline: "高端服装制造" },
   language: { label: "语言", en: "English", zh: "中文", es: "Español", de: "Deutsch", ar: "العربية" },
-  hero: { label: "贯穿端到端的全球服装采购卓越服务", titleA: "柔软", titleB1: "可穿的", titleB2: "舒适。", subtitle: "为舒适而制。为生活而塑。", cta: "探索我们的系列" },
+  hero: { label: "全球服装采购卓越服务", titleA: "柔软", titleB1: "可穿的", titleB2: "舒适。", subtitle: "为舒适而制。为生活而塑。", cta: "探索我们的系列" },
   catalog: { eyebrow: "我们的系列", title: "全球服装目录", description: "来自我们买办与联络办事处的精选——为跨品类采购的国际品牌而建。针织仍是我们的核心优势,我们在梭织、毛衫、皮革与内衣方面也具备完整能力。", ladies: "女装目录", mens: "男装目录", children: "童装目录", filterLabel: "筛选", filterByType: "按产品类型筛选", searchPlaceholder: "按名称、面料或风格搜索…", productsFound: "件产品", productFound: "件产品", loadMore: "加载更多", showing: "显示", of: "共", more: "更多", noResults: "此系列暂无产品。", noMatch: "未找到匹配 \"{{query}}\" 的产品。请尝试其他关键词。", loadError: "暂时无法加载目录,请刷新页面。" },
   capabilities: { ...en.capabilities,
     eyebrow: "我们的服务", title1: "面向全球品牌的", title2: "采购与联络办事处", description: "从面料采购、产品开发到生产监督与准时交付——我们将国际买家与值得信赖的孟加拉制造商相连接。针织是我们的核心优势,网络覆盖梭织、毛衫、皮革与内衣。",
