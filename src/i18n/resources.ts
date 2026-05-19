@@ -327,6 +327,7 @@ const en = {
     button: "Start a Conversation",
   },
 },
+  };
 
 // Other languages: loosened typing so per-language coverage can be partial.
 // Missing nested keys fall back to English automatically (fallbackLng: "en").
