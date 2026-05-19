@@ -709,7 +709,33 @@ const ko: Locale = {
   language: en.language,
   hero: { label: "의류 바잉 & 리에종 하우스", titleA: "부드러움", titleB1: "입을 수 있는", titleB2: "편안함.", subtitle: "편안함을 위해 만들어졌습니다.", cta: "컬렉션 둘러보기" },
   catalog: { eyebrow: "우리의 컬렉션", title: "글로벌 의류 카탈로그", description: "바잉 & 리에종 하우스의 큐레이션.", ladies: "여성 카탈로그", mens: "남성 카탈로그", children: "키즈 카탈로그", filterLabel: "필터", filterByType: "제품 유형으로 필터", searchPlaceholder: "이름, 원단, 스타일로 검색…", productsFound: "개 제품", productFound: "개 제품", loadMore: "더 보기", showing: "표시", of: "/", more: "추가", noResults: "이 컬렉션에는 아직 제품이 없습니다.", noMatch: "\"{{query}}\" 와 일치하는 제품이 없습니다.", loadError: "카탈로그를 불러올 수 없습니다." },
-  capabilities: en.capabilities,
+ capabilities: {
+    ...en.capabilities,
+    eyebrow: "주요 서비스",
+    title1: "글로벌 브랜드를 위한",
+    title2: "구매 및 현지 연락 사무소",
+    description: "원자재 조달 및 제품 개발부터 생산 감독, 정시 출하에 이르기까지 — 당사는 해외 바이어와 신뢰할 수 있는 방글라데시 제조업체를 연결합니다. 니트(Knit)는 당사의 핵심 역량이며, 우븐(Woven), 스웨터, 가죽 및 란제리까지 아우르는 네트워크를 보유하고 있습니다.",
+    collage: {
+      sourcingEyebrow: "소싱 및 개발",
+      sourcingTitle: "엄선된 원단. 정확한 테크팩. 실제 샘플.",
+      productionEyebrow: "생산 감독",
+      productionTitle: "모든 주문의 생산 현장을 직접 확인합니다.",
+    },
+    stats: { 
+      gsm: "원단 중량(GSM) 범위", 
+      countries: "수출 대상국", 
+      categories: "의류 카테고리", 
+      response: "응답 시간" 
+    },
+    pillars: {
+      sourcing: { title: "전략적 소싱", desc: "니트, 우븐, 스웨터, 가죽, 란제리 전반에 걸친 신뢰할 수 있는 방직 및 제조 공장 파트너십." },
+      development: { title: "제품 개발", desc: "무드 보드와 테크팩부터 랩딥(Lab Dip), 핏 샘플 및 양산 전 최종 승인까지의 전 과정." },
+      production: { title: "생산 연락 및 조율", desc: "각 단계별 현장 조율, 일일 진행 상황 업데이트 및 선제적인 문제 해결." },
+      quality: { title: "품질 보증", desc: "해외 바이어의 기준에 맞춘 공정 내(In-line) 및 최종(Final) 멀티 포인트 품질 검사." },
+      logistics: { title: "배송 및 물류", desc: "서류 작업, 화물 예약 및 전 세계 항구로의 정시 인도." },
+      value: { title: "상업적 가치", desc: "투명한 원가 계산, 유연한 최소 주문 수량(MOQ), 품질과 마진을 모두 고려한 가격 책정." },
+    },
+  },
   exportMap: {
     eyebrow: "글로벌 도달", title: "소싱 & 출하 지역",
     description: "방글라데시에서 제작되어 유럽, 북미, 중동, 오세아니아, 라틴아메리카, 아프리카의 안목 있는 바이어에게 배송됩니다.",
@@ -801,7 +827,33 @@ const ja: Locale = {
   language: en.language,
   hero: { label: "アパレルバイング&リエゾンハウス", titleA: "やわらかさ", titleB1: "着られる", titleB2: "心地よさ。", subtitle: "快適さのために。", cta: "コレクションを見る" },
   catalog: { eyebrow: "私たちのコレクション", title: "グローバルアパレルカタログ", description: "バイング & リエゾンハウスの厳選。", ladies: "レディースカタログ", mens: "メンズカタログ", children: "キッズカタログ", filterLabel: "フィルター", filterByType: "商品タイプで絞り込み", searchPlaceholder: "名前、生地、スタイルで検索…", productsFound: "件の商品", productFound: "件の商品", loadMore: "もっと見る", showing: "表示中", of: "/", more: "以上", noResults: "このコレクションにはまだ商品がありません。", noMatch: "「{{query}}」に一致する商品がありません。", loadError: "カタログを読み込めません。" },
-  capabilities: en.capabilities,
+  capabilities: {
+    ...en.capabilities,
+    eyebrow: "私たちのサービス",
+    title1: "グローバルブランドのための",
+    title2: "購買・連絡エージェント",
+    description: "資材調達や製品開発から、生産管理、期日通りの出荷まで — 私たちは国際的なバイヤーと、信頼できるバングラデシュの製造工場を繋ぐ架け橋となります。ニット製品が私たちの最大の強みですが、織物、セーター、レザー、ランジェリーまで幅広いネットワークを構築しています。",
+    collage: {
+      sourcingEyebrow: "調達＆開発",
+      sourcingTitle: "厳選された生地。正確な仕様書。本物のサンプル。",
+      productionEyebrow: "生産管理",
+      productionTitle: "すべての注文において、現場で直接管理。",
+    },
+    stats: { 
+      gsm: "対応可能な生地の目付（GSM）範囲", 
+      countries: "輸出先国・地域", 
+      categories: "アパレルカテゴリ", 
+      response: "対応スピード" 
+    },
+    pillars: {
+      sourcing: { title: "戦略的調達", desc: "ニット、織物、セーター、レザー、ランジェリー全般にわたる、信頼できる紡績・縫製工場パートナー。" },
+      development: { title: "製品開発", desc: "ムードボードや仕様書の作成から、ラボディップ（ビーカー）、フィットサンプル、量産前承認まで。" },
+      production: { title: "生産連携・調整", desc: "各段階における現場でのコーディネート、日々の進捗アップデート、および先を見据えた問題解決。" },
+      quality: { title: "品質保証", desc: "国際的なバイヤー基準に合わせた、インライン（工程内）および最終段階でのマルチポイント品質検査。" },
+      logistics: { title: "出荷＆物流", desc: "書類作成、貨物予約、そして世界中の港への期日通りの納品。" },
+      value: { title: "商業的価値", desc: "透明性のあるコスト計算、柔軟な最小注文数量（MOQ）、そして品質と利益率の両方を尊重した価格設定。" },
+    },
+  },
   exportMap: {
     eyebrow: "グローバル展開", title: "ソーシング & 出荷地域",
     description: "バングラデシュで製作し、欧州・北米・中東・オセアニア・中南米・アフリカの目利きのバイヤーへお届けします。",
