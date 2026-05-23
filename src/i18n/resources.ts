@@ -665,20 +665,142 @@ const es: Locale = {
   footer: { motto: "\"Suavidad que puedes vestir. Hecho para la comodidad. Diseñado para la vida.\"", tagline: "Confeccionando tejidos premium para compradores internacionales desde el día uno.", navigation: "Navegación", productCatalog: "Catálogo de Productos", aboutUs: "Sobre Nosotros", sustainability: "Sostenibilidad", contact: "Contacto", resources: "Recursos", brochure: "Folleto", deck: "Presentación", infographics: "Infografías", catalog: "Catálogo", contactHeading: "Contacto", followUs: "Síguenos", rights: "Todos los derechos reservados. Fabricante Premium de Tejidos de Punto.", backToTop: "Volver arriba", madeWith: "Confeccionado con cuidado en Bangladés" },
   contact: { eyebrow: "Contáctanos", titleA: "Construyamos Tu", titleB: "Colección", subtitle: "¿Listo para hacer realidad tu visión de tejidos? Contáctanos para muestras, precios o alianzas. Nos encantaría saber de ti.", role: "Desarrollo de Negocios y Relaciones con Clientes", info: { email: "Correo", emailDesc: "Envíanos un correo en cualquier momento", whatsapp: "WhatsApp", whatsappDesc: "Chatea con nosotros directamente", location: "Ubicación", locationValue: "Mirpur 12, Daca, Bangladés – 1216", locationDesc: "Dirección de nuestra oficina", response: "Tiempo de Respuesta", responseValue: "En 24 Horas", responseDesc: "Respondemos a cada consulta con prontitud" }, ctaLine: "¿Prefieres una conversación rápida? Escríbenos al instante por WhatsApp o envía una consulta.", chatWhatsapp: "Chatea por WhatsApp", sendQuery: "Enviar Consulta", bannerTitle: "Explora Toda Nuestra Gama", bannerDesc: "Navega por nuestro catálogo completo y descubre lo que podemos crear para tu marca.", viewCatalog: "Ver Catálogo" },
   about: {
-    eyebrow: "Acerca de ThreadKnit", titleA: "Excelencia Artesanal", titleB: "en Cada Puntada", subtitle: "Un fabricante premium de tejidos de punto comprometido con la calidad, la comodidad y la artesanía — al servicio de quienes exigen lo mejor.",
-    trust: { buyerFocused: { value: "100%", label: "Enfocado al Comprador", desc: "Cada decisión se guía por nuestro compromiso con tu éxito" }, response: { value: "24h", label: "Tiempo de Respuesta", desc: "Creemos en una comunicación ágil — tu consulta nunca queda sin respuesta" }, quality: { value: "Premium", label: "Estándar de Calidad", desc: "Inspecciones rigurosas multipunto garantizan que solo lo mejor te llegue" }, direct: { value: "Directa", label: "Comunicación", desc: "Sin intermediarios — tratas directamente con nuestro equipo de producción" } },
-    story: { eyebrow: "Quiénes Somos", title1: "Donde la Calidad", title2: "Encuentra la Artesanía", p1: "ThreadKnit es un fabricante premium de tejidos de punto especializado en prendas de alta calidad adaptadas a los exigentes estándares de los compradores internacionales. Desde el concepto inicial hasta la entrega final, cada producto se desarrolla con un enfoque inquebrantable en", p1Bold: "calidad, ajuste y rendimiento del tejido.", p2: "Nuestra experiencia abarca todo el espectro del punto — desde básicos ligeros de 140 GSM hasta abrigos de fleece pesados de 350 GSM. Trabajamos con algodón orgánico, mezclas con elastano, piqué, french terry y tejidos especiales para crear prendas que ofrecen comodidad y atractivo comercial.", p3: "Servimos a una creciente comunidad de compradores internacionales en múltiples mercados, ganando pedidos recurrentes gracias a la confiabilidad, la comunicación transparente y la excelencia del producto.", p4: "Nuestro equipo aporta profundo conocimiento del sector y verdadera pasión por el punto. Entendemos que la reputación de tu marca depende de la calidad de cada prenda — y asumimos esa responsabilidad con la seriedad que merece.", promise: "Nuestra Promesa" },
-    gsm: { eyebrow: "Rango de Peso del Tejido", light: "LIGERO", heavy: "PESADO", caption: "Gramos por Metro Cuadrado" },
-    materials: { m1: { name: "100% Algodón Orgánico", use: "Camisetas, Básicos" }, m2: { name: "95% Algodón 5% Elastano", use: "Prendas Ajustadas" }, m3: { name: "100% Piqué de Algodón", use: "Polos" }, m4: { name: "French Terry de Algodón", use: "Sudaderas, Hoodies" }, m5: { name: "Fleece de Algodón", use: "Abrigos, Chaquetas" }, m6: { name: "Sarga de Algodón", use: "Pantalones, Shorts" }, m7: { name: "Tejido Acanalado", use: "Cuellos, Puños, Detalles" } },
-    commitment: { eyebrow: "Nuestro Compromiso", title1: "Construido sobre la", trust: "Confianza", title2: ", entregado con", integrity: "Integridad", subtitle: "Creemos que las relaciones comerciales duraderas se basan en honestidad, consistencia y un cuidado genuino por el éxito de nuestros compradores. Esto es lo que siempre puedes esperar al trabajar con ThreadKnit.", i1: { title: "Comunicación Transparente", desc: "Siempre sabrás exactamente dónde está tu pedido. Brindamos actualizaciones regulares, fotos de progreso en tiempo real y comunicación abierta desde el pedido hasta el envío." }, i2: { title: "Calidad que Puedes Verificar", desc: "Damos la bienvenida a inspecciones en cualquier etapa. Cada prenda pasa controles multipunto — y compartimos informes de inspección, resultados de laboratorio y fotografías detalladas antes del envío." }, i3: { title: "Entrega Consistente y Confiable", desc: "La entrega puntual no es solo una meta — es nuestro estándar. Planificamos cuidadosamente, mantenemos capacidad de reserva y comunicamos proactivamente cualquier ajuste." } },
-    process: { eyebrow: "Cómo Trabajamos", title1: "Del Concepto a la", title2: "Entrega", subtitle: "Nuestro proceso integral asegura que cada prenda cumpla los más altos estándares de calidad y artesanía.", s1: { title: "Diseño y Desarrollo", desc: "Desarrollo colaborativo desde bocetos hasta tech packs listos para producción" }, s2: { title: "Sourcing de Materiales", desc: "Tejidos cuidadosamente seleccionados de proveedores responsables y confiables" }, s3: { title: "Producción", desc: "Artesanía experta con infraestructura moderna de tejido, corte y costura" }, s4: { title: "Inspección de Calidad", desc: "Controles en cada fase — desde el tejido crudo hasta el empaquetado final" }, s5: { title: "Ajuste y Medidas", desc: "Escalado preciso y pruebas de ajuste para garantizar consistencia en todas las tallas" }, s6: { title: "Acabado y Entrega", desc: "Acabado profesional, etiquetado y envío puntual según tus especificaciones" } },
-    prints: { title1: "Técnicas de Impresión", title2: "y Efectos", subtitle: "Ofrecemos siete métodos especializados de impresión y embellecimiento, dando a tu marca la flexibilidad creativa para destacar en cualquier mercado.", t1: { name: "Estampado de Goma", desc: "Acabado texturizado en relieve con durabilidad excepcional y fuerte presencia táctil" }, t2: { name: "Impresión HD", desc: "Gráficos ultra nítidos en alta definición que dan vida a diseños complejos" }, t3: { name: "AOP (Estampado Total)", desc: "Cobertura de patrón de borde a borde para diseños impactantes en toda la prenda" }, t4: { name: "Bordado", desc: "Embellecimiento premium en hilo que aporta un toque artesanal y de lujo" }, t5: { name: "Estampado por Descarga", desc: "Tacto suave que retira el tinte para tonos apagados y vintage" }, t6: { name: "Estampado Puff", desc: "Efecto 3D en relieve que crea una textura superficial llamativa" }, t7: { name: "Estampado Plastisol", desc: "Colores vibrantes y opacos ideales para gráficos audaces sobre tejidos oscuros" } },
-    why: { eyebrow: "Por Qué Elegirnos", title1: "Confianza y Comodidad", title2: "en Cada Prenda", subtitle: "No solo fabricamos prendas — construimos alianzas basadas en confianza, consistencia y éxito compartido.", s1: { title: "Alianza Confiable", desc: "Construimos relaciones de largo plazo con comunicación constante, entrega puntual y transparencia en cada etapa.", stat: "Integral", statLabel: "Transparencia" }, s2: { title: "Prácticas Responsables", desc: "Priorizamos algodón orgánico y materiales eco-conscientes, avanzando continuamente hacia mayores estándares de sostenibilidad.", stat: "Eco-First", statLabel: "Enfoque" }, s3: { title: "Proceso Orientado a la Calidad", desc: "Cada prenda atraviesa múltiples etapas de control de calidad — desde la inspección del hilo hasta el empaquetado final.", stat: "Multietapa", statLabel: "Proceso QC" }, s4: { title: "Valor Competitivo", desc: "Precios estratégicos que equilibran calidad premium y viabilidad comercial para el éxito de nuestros compradores.", stat: "Inteligente", statLabel: "Precio" } },
-    buyers: { eyebrow: "Para Compradores", title1: "Lo Que Obtienes", title2: "al Trabajar con Nosotros", subtitle: "Ya sea que estés lanzando una nueva marca o escalando una establecida, ThreadKnit aporta soporte de manufactura y experiencia para hacer realidad tu visión.", b1: "MOQ flexible para apoyar a marcas en crecimiento y establecidas", b2: "Etiquetado, empaque y branding personalizables", b3: "Soporte de desarrollo de producto desde el concepto hasta la muestra", b4: "Amplio rango de GSM (140–350) para colecciones de temporada diversas", b5: "Gestión de cuenta dedicada para cada comprador", b6: "Compromiso de entrega puntual con actualizaciones regulares", f1: { label: "Envíos\nInternacionales", desc: "Entregamos en todo el mundo" }, f2: { label: "Soporte\nDedicado", desc: "Gerente de cuenta personal" }, f3: { label: "Satisfacción\ndel Cliente", desc: "Impulsado por pedidos recurrentes" }, f4: { label: "Producción\nPropia", desc: "Control total sobre la calidad" } },
-    tips: { eyebrow: "Conocimiento de Punto y Camisetas", title1: "Consejos para una", title2: "Calidad Duradera", subtitle: "Guía práctica y basada en hechos para sacar el máximo provecho de cada prenda de punto.", t1: { title: "Lavar en Frío y al Revés", desc: "El agua fría (alrededor de 30°C) ayuda a preservar las fibras y los estampados. Voltear la camiseta al revés reduce el roce y prolonga su vida." }, t2: { title: "Evitar el Secado a Alta Temperatura", desc: "Secadora a alta temperatura es la principal causa de encogimiento del algodón. Secar al aire o a baja temperatura mantiene el ajuste y la suavidad." }, t3: { title: "El GSM Afecta el Tacto y el Uso", desc: "GSM mide el peso del tejido. Ligeros (140–180) para clima cálido; medios (200–240) premium todo el año; pesados (280–350) ideales para sudaderas y abrigos." }, t4: { title: "Algodón Peinado y Ring-Spun", desc: "El algodón peinado elimina fibras cortas e impurezas, dando un hilo más suave y fuerte. Los hilos ring-spun se trenzan para mayor suavidad y durabilidad." }, t5: { title: "Pre-Encogido No Es Cero Encogimiento", desc: "Incluso el algodón pre-encogido puede encoger 1–3% adicional con lavado caliente. Seguir las etiquetas de cuidado mantiene el ajuste." }, t6: { title: "Guarda los Tejidos Doblados", desc: "Los ganchos pueden estirar los hombros y deformar las prendas de punto. Doblar camisetas y suéteres mantiene su forma." } },
-    cta: { title: "¿Listo para tu Próxima Colección?", desc: "Conversemos sobre tus requisitos. Desde la selección del tejido hasta la prenda terminada, estamos aquí para hacer realidad tu visión.", button: "Contáctanos" },
+  eyebrow: "Sobre ThreadKnit",
+  titleA: "Tu Socio de Confianza",
+  titleB: "en Abastecimiento Global de Prendas",
+  subtitle: "Una oficina de compras y enlace con sede en Bangladesh — conectando marcas internacionales con fabricantes verificados en punto, plano, suéter, cuero y lencería.",
+
+  trust: {
+    buyerFocused: { value: "100%", label: "Centrado en el Comprador", desc: "Cada decisión que tomamos está impulsada por tu éxito en el abastecimiento — no por la conveniencia de la fábrica" },
+    response: { value: "24h", label: "Tiempo de Respuesta", desc: "Comunicación rápida y directa — tu consulta siempre se confirma en un día hábil" },
+    quality: { value: "Multi-Etapa", label: "Proceso de QC", desc: "Inspecciones en línea y finales en cada fase de producción antes del envío" },
+    direct: { value: "Acceso", label: "Directo", desc: "Sin capas, sin demoras — trabajas directamente con nuestro equipo de sourcing en cada pedido" },
   },
-};
+
+  story: {
+    eyebrow: "Quiénes Somos",
+    title1: "Experiencia en Bangladesh.",
+    title2: "Estándares Globales.",
+    p1: "ThreadKnit es una oficina de compras y enlace de prendas con sede en Bangladesh, especializada en abastecimiento integral para marcas y minoristas internacionales. Actuamos como tu socio sobre el terreno — gestionando fábricas, supervisando la producción y asegurando que cada pedido cumpla tus",
+    p1Bold: "requisitos de calidad, cumplimiento y entrega.",
+    p2: "El punto es nuestra fortaleza central. Nuestra red de abastecimiento cubre el espectro completo — desde jersey sencillo ligero de 140 GSM hasta forro polar pesado de 350 GSM — junto con capacidad activa en tejido plano, suéter, cuero y lencería.",
+    p3: "Trabajamos con una comunidad creciente de compradores internacionales en Europa, Norteamérica, el Medio Oriente y más allá — ganando asociaciones a largo plazo mediante ejecución consistente, comunicación honesta y supervisión de calidad sin compromisos.",
+    p4: "Nuestro equipo combina un profundo conocimiento de la industria RMG de Bangladesh con una mentalidad centrada en el comprador. Entendemos que la reputación de tu marca está en juego con cada envío — y la protegemos en cada etapa de la producción.",
+    promise: "Nuestra Promesa",
+  },
+
+  gsm: {
+    eyebrow: "Rango de Gramaje del Tejido",
+    light: "LIGERO",
+    heavy: "PESADO",
+    caption: "Gramos por Metro Cuadrado",
+  },
+
+  materials: {
+    m1: { name: "100% Algodón Orgánico", use: "Camisetas, Básicos" },
+m2: { name: "95% Algodón 5% Elastano", use: "Prendas Ajustadas" },
+    m3: { name: "100% Piqué de Algodón", use: "Polos" },
+    m4: { name: "French Terry de Algodón", use: "Sudaderas, Hoodies" },
+    m5: { name: "Forro Polar de Algodón", use: "Abrigos, Chaquetas" },
+    m6: { name: "Sarga de Algodón", use: "Pantalones, Shorts" },
+    m7: { name: "Tejido Acanalado", use: "Cuellos, Puños, Acabados" },
+  },
+
+  commitment: {
+    eyebrow: "Nuestro Compromiso",
+    title1: "Construido sobre la",
+    trust: "Confianza",
+    title2: ", Entregado con",
+    integrity: "Integridad",
+    subtitle: "Las asociaciones de abastecimiento duraderas se construyen sobre transparencia, responsabilidad e interés comercial compartido. Esto es con lo que siempre puede contar cada comprador de ThreadKnit.",
+    i1: {
+      title: "Visibilidad Total de Producción",
+      desc: "Siempre sabrás dónde está tu pedido. Proporcionamos actualizaciones estructuradas de producción, fotos en tiempo real de la fábrica y acceso directo a nuestro equipo — desde la confirmación del pedido hasta el envío final.",
+    },
+    i2: {
+      title: "Supervisión de Calidad Independiente",
+      desc: "Realizamos inspecciones multipunto en línea y finales en tu nombre — no en el de la fábrica. Informes de inspección, resultados de pruebas de laboratorio y fotos previas al envío se comparten con cada pedido como estándar.",
+    },
+    i3: {
+      title: "Entrega con la que Puedes Planificar",
+      desc: "La entrega a tiempo es un compromiso, no un mejor esfuerzo. Construimos cronogramas de producción realistas, responsabilizamos a las fábricas con los plazos acordados y señalamos cualquier riesgo proactivamente — antes de que se conviertan en tu problema.",
+    },
+  },
+
+  process: {
+    eyebrow: "Cómo Trabajamos",
+    title1: "Proceso de Abastecimiento",
+    title2: "Integral",
+    subtitle: "Desde tu primer brief hasta la entrega final — un proceso de abastecimiento estructurado y responsable que protege tu marca en cada paso.",
+    s1: { title: "Brief y Desarrollo", desc: "Traducimos tu brief de diseño en tech packs listos para producción, especificaciones de materiales y estimaciones de costos precisas" },
+    s2: { title: "Selección de Fábrica", desc: "Emparejamos tu pedido con fábricas verificadas y listas para cumplimiento de nuestra red curada de fabricantes de Bangladesh" },
+    s3: { title: "Muestras y Aprobación", desc: "Muestras proto, de ajuste y pre-producción gestionadas y revisadas según tus estándares antes del compromiso masivo" },
+    s4: { title: "Supervisión de Producción", desc: "Enlace in situ durante la producción masiva — seguimiento del progreso, resolución de problemas y cumplimiento de especificaciones acordadas" },
+    s5: { title: "Inspección de Calidad", desc: "QC multietapa independiente — verificaciones en línea durante la producción e inspección final antes de empacar la mercancía" },
+    s6: { title: "Envío y Documentación", desc: "Documentación de exportación completa, coordinación de flete y entrega a tiempo a tu puerto o almacén nominado" },
+  },
+
+  prints: {
+    title1: "Técnicas de Impresión",
+    title2: "y Efectos",
+    subtitle: "Siete métodos especializados de impresión y embellecimiento — cada uno con perfiles distintos de costo, MOQ y solidez al lavado para adaptarse a tu producto y precio.",
+    t1: { name: "Estampado de Goma", desc: "Acabado texturizado en relieve con durabilidad excepcional y fuerte presencia táctil" },
+    t2: { name: "Impresión HD", desc: "Gráficos ultra nítidos en alta definición que dan vida a diseños complejos en la tela" },
+    t3: { name: "AOP (Estampado Total)", desc: "Cobertura de patrón de borde a borde para diseños impactantes en toda la prenda" },
+    t4: { name: "Bordado", desc: "Embellecimiento premium en hilo que aporta un toque artesanal y de lujo" },
+t5: { name: "Estampado por Descarga", desc: "Tacto suave que retira el tinte para tonos apagados y vintage" },
+    t6: { name: "Estampado Puff", desc: "Efecto 3D en relieve que crea una textura superficial llamativa" },
+    t7: { name: "Estampado Plastisol", desc: "Colores vibrantes y opacos ideales para gráficos audaces sobre tejidos oscuros" },
+  },
+
+  why: {
+    eyebrow: "Por Qué ThreadKnit",
+    title1: "El Socio de Abastecimiento",
+    title2: "que tu Marca Merece",
+    subtitle: "No solo colocamos pedidos — gestionamos resultados. Esto es lo que distingue a ThreadKnit como socio de abastecimiento a largo plazo.",
+    s1: { title: "Asociación Responsable", desc: "Actuamos como una extensión de tu equipo de compras — asumiendo resultados, no solo tareas. Actualizaciones consistentes, escalación clara y resolución proactiva de problemas en cada etapa.", stat: "Integral", statLabel: "Responsabilidad" },
+    s2: { title: "Red Lista para Cumplimiento", desc: "Nuestros socios fabricantes operan bajo marcos de cumplimiento social, de seguridad y de producto reconocidos internacionalmente — con documentación disponible a solicitud.", stat: "Verificada", statLabel: "Red de Fábricas" },
+    s3: { title: "Control de Calidad Independiente", desc: "Nuestro equipo de QC trabaja para ti, no para la fábrica. Inspecciones multipunto, pruebas de laboratorio de terceros e informes detallados previos al envío como estándar en cada pedido.", stat: "Multi-Etapa", statLabel: "Proceso QC" },
+    s4: { title: "Inteligencia Comercial", desc: "Costeo transparente, evaluación honesta de tiempos de entrega y precios orientados al mercado — para que tus márgenes estén protegidos y tu planificación esté basada en la realidad.", stat: "Transparente", statLabel: "Costeo" },
+  },
+
+  buyers: {
+    eyebrow: "Para Compradores",
+    title1: "Lo que Obtienes",
+    title2: "Trabajando con Nosotros",
+    subtitle: "Ya sea que estés colocando tu primer pedido en Bangladesh o consolidando una cadena de suministro existente, ThreadKnit proporciona la experiencia local y la responsabilidad del lado del comprador para hacerlo bien.",
+    b1: "MOQ flexible en categorías de punto, plano, suéter, cuero y lencería",
+    b2: "Etiquetado personalizado, hangtags, embalaje y branding gestionados de extremo a extremo",
+    b3: "Servicio completo de muestras — proto, ajuste, set de tallas y pre-producción",
+    b4: "Amplio rango de GSM (140–350) para desarrollo de productos de temporada y todo el año",
+    b5: "Gerente de cuenta dedicado para cada relación con compradores",
+    b6: "Reportes estructurados de producción y entrega a tiempo como estándar",
+    f1: { label: "Entrega\nGlobal", desc: "Envíos a puertos en todo el mundo" },
+    f2: { label: "Gerente de\nCuenta Dedicado", desc: "Un punto de contacto, siempre" },
+    f3: { label: "QC del\nComprador", desc: "Independiente, no de la fábrica" },
+    f4: { label: "Listo para\nCumplimiento", desc: "Documentación a solicitud" },
+  },
+
+  tips: {
+    eyebrow: "Inteligencia de Abastecimiento",
+    title1: "Lo que Todo Comprador",
+    title2: "Debería Saber",
+    subtitle: "Información técnica y comercial para ayudarte a abastecer con más inteligencia, especificar mejor y proteger tu marca en cada etapa de la producción.",
+    t1: { title: "El GSM es una Decisión Comercial", desc: "El peso del tejido afecta directamente el posicionamiento minorista, la adecuación estacional y la percepción del cliente final. Fijar el GSM al inicio del desarrollo — alineado con tu mercado y precio — evita costosas reelaboraciones en la etapa de muestras." },
+    t2: { title: "La Especificación del Hilo Impulsa la Longevidad", desc: "El algodón peinado y ring-spun ofrece una mano y durabilidad al lavado notablemente mejores. Especificar la construcción del hilo en tu tech pack — no solo el contenido de fibra — es la diferencia entre un producto de compra repetida y una devolución de una temporada." },
+t3: { title: "El Encogimiento es una Especificación, no una Sorpresa", desc: "Incluso el algodón pre-encogido puede encoger un 1–3% adicional post-lavado. Establecer una tolerancia de encogimiento clara en tu orden de compra y confirmar mediante pruebas de lavado antes de la producción masiva protege la consistencia de tallas y reduce las devoluciones." },
+    t4: { title: "El Método de Impresión Afecta el Margen y la Durabilidad", desc: "Cada técnica — HD, AOP, puff, discharge, plastisol — tiene implicaciones distintas de costo, MOQ y solidez al lavado. Hacer coincidir el método de impresión con el uso final y el precio es una decisión de abastecimiento, no de estilismo." },
+    t5: { title: "El Cumplimiento de la Etiqueta de Cuidado es Específico del Mercado", desc: "Los mercados de la UE, EE. UU. y Australia tienen requisitos distintos de divulgación de composición de fibras y etiquetado de cuidado. Confirmar el cumplimiento en la etapa de tech pack — no post-producción — evita retenciones de envíos y costosas reetiquetaciones." },
+    t6: { title: "Las Pruebas de Tela Protegen tu Marca", desc: "Las pruebas de sustancias restringidas REACH, Oeko-Tex y CPSC son requisitos estándar para la mayoría de los minoristas de mercados desarrollados. Solicitar informes de prueba antes del compromiso masivo de tela es innegociable para marcas que envían a escala." },
+  },
+
+  cta: {
+    title: "¿Listo para Abastecer con Más Inteligencia?",
+    desc: "Desde el brief inicial hasta el envío final — gestionamos cada detalle para que tu marca reciba exactamente lo que se acordó, a tiempo, siempre.",
+    button: "Iniciar una Conversación",
+  },
+},
+  }
 
 const de: Locale = {
   ...en,
