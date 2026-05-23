@@ -905,20 +905,142 @@ const de: Locale = {
   footer: { motto: "\"Weichheit zum Tragen. Gefertigt für Komfort. Gestaltet für das Leben.\"", tagline: "Premium-Strickwaren für internationale Käufer.", navigation: "Navigation", productCatalog: "Produktkatalog", aboutUs: "Über Uns", sustainability: "Nachhaltigkeit", contact: "Kontakt", resources: "Ressourcen", brochure: "Broschüre", deck: "Präsentation", infographics: "Infografiken", catalog: "Katalog", contactHeading: "Kontakt", followUs: "Folgen Sie uns", rights: "Alle Rechte vorbehalten.", backToTop: "Nach oben", madeWith: "Mit Sorgfalt in Bangladesch gefertigt" },
   contact: { eyebrow: "Kontakt aufnehmen", titleA: "Lassen Sie uns Ihre", titleB: "Kollektion bauen", subtitle: "Bereit, Ihre Strickwaren-Vision zu verwirklichen? Kontaktieren Sie uns für Muster, Preise oder Partnerschaften.", role: "Geschäftsentwicklung & Kundenbeziehungen", info: { email: "E-Mail", emailDesc: "Schreiben Sie uns jederzeit", whatsapp: "WhatsApp", whatsappDesc: "Chatten Sie direkt mit uns", location: "Standort", locationValue: "Mirpur 12, Dhaka, Bangladesch – 1216", locationDesc: "Unsere Büroadresse", response: "Antwortzeit", responseValue: "Innerhalb von 24 Stunden", responseDesc: "Wir antworten zeitnah auf jede Anfrage" }, ctaLine: "Lieber ein kurzes Gespräch? Erreichen Sie uns sofort über WhatsApp oder senden Sie eine Anfrage.", chatWhatsapp: "Auf WhatsApp chatten", sendQuery: "Anfrage senden", bannerTitle: "Entdecken Sie unser gesamtes Sortiment", bannerDesc: "Durchstöbern Sie unseren kompletten Strickwarenkatalog und sehen Sie, was wir für Ihre Marke schaffen können.", viewCatalog: "Katalog ansehen" },
   about: {
-    eyebrow: "Über ThreadKnit", titleA: "Exzellenz gefertigt", titleB: "in jeder Masche", subtitle: "Ein Premium-Strickwarenhersteller mit Engagement für Qualität, Komfort und Handwerk — für Käufer mit höchsten Ansprüchen.",
-    trust: { buyerFocused: { value: "100%", label: "Käuferorientiert", desc: "Jede Entscheidung folgt unserem Engagement für Ihren Erfolg" }, response: { value: "24h", label: "Antwortzeit", desc: "Wir glauben an schnelle Kommunikation — Ihre Anfrage bleibt nie unbeantwortet" }, quality: { value: "Premium", label: "Qualitätsstandard", desc: "Strenge Mehrpunktprüfungen sorgen dafür, dass nur das Beste zu Ihnen kommt" }, direct: { value: "Direkt", label: "Kommunikation", desc: "Keine Zwischenhändler — Sie sprechen direkt mit unserem Produktionsteam" } },
-    story: { eyebrow: "Wer wir sind", title1: "Wo Qualität auf", title2: "Handwerkskunst trifft", p1: "ThreadKnit ist ein Premium-Strickwarenhersteller, spezialisiert auf hochwertige Bekleidung nach den anspruchsvollen Standards internationaler Käufer. Vom Konzept bis zur Auslieferung wird jedes Produkt mit unermüdlichem Fokus auf", p1Bold: "Qualität, Passform und Stoffleistung entwickelt.", p2: "Unsere Expertise reicht vom leichten 140-GSM-Single-Jersey bis zum schweren 350-GSM-Fleece-Außenwear. Wir arbeiten mit Bio-Baumwolle, Elastan-Mischungen, Piqué, French Terry und Spezialstoffen — für Komfort und kommerziellen Erfolg.", p3: "Wir betreuen eine wachsende Gemeinschaft internationaler Käufer in vielen Märkten und gewinnen durch Zuverlässigkeit, transparente Kommunikation und Produktexzellenz immer wieder Folgeaufträge.", p4: "Unser Team bringt tiefes Branchenwissen und echte Leidenschaft für Strickwaren mit. Wir wissen, dass Ihr Markenruf von der Qualität jedes Stücks abhängt — und nehmen diese Verantwortung sehr ernst.", promise: "Unser Versprechen" },
-    gsm: { eyebrow: "Stoffgewichtsbereich", light: "LEICHT", heavy: "SCHWER", caption: "Gramm pro Quadratmeter" },
-    materials: { m1: { name: "100% Bio-Baumwolle", use: "T-Shirts, Basics" }, m2: { name: "95% Baumwolle 5% Elastan", use: "Tailliertes" }, m3: { name: "100% Baumwoll-Piqué", use: "Polos" }, m4: { name: "Baumwoll-French-Terry", use: "Sweatshirts, Hoodies" }, m5: { name: "Baumwoll-Fleece", use: "Outerwear, Jacken" }, m6: { name: "Baumwoll-Twill", use: "Hosen, Shorts" }, m7: { name: "Rippstrick", use: "Kragen, Bündchen, Details" } },
-    commitment: { eyebrow: "Unser Versprechen", title1: "Aufgebaut auf", trust: "Vertrauen", title2: ", geliefert mit", integrity: "Integrität", subtitle: "Wir glauben, dass dauerhafte Geschäftsbeziehungen auf Ehrlichkeit, Konsistenz und echtem Engagement für den Erfolg unserer Käufer beruhen.", i1: { title: "Transparente Kommunikation", desc: "Sie wissen jederzeit, wo Ihre Bestellung steht. Regelmäßige Updates, Echtzeit-Fotos und offene Kommunikation vom Auftrag bis zum Versand." }, i2: { title: "Verifizierbare Qualität", desc: "Käufer dürfen jederzeit Einblick in unsere Produktion nehmen. Mehrpunkt-Qualitätsprüfungen — Inspektionsberichte und Laborergebnisse vor dem Versand." }, i3: { title: "Konsistente, zuverlässige Lieferung", desc: "Pünktliche Lieferung ist nicht nur Ziel — sondern Standard. Sorgfältige Planung, Pufferkapazitäten und proaktive Kommunikation." } },
-    process: { eyebrow: "So arbeiten wir", title1: "Vom Konzept zur", title2: "Lieferung", subtitle: "Unser End-to-End-Prozess gewährleistet, dass jedes Stück höchste Qualität und Handwerk erfüllt.", s1: { title: "Design & Entwicklung", desc: "Gemeinsame Produktentwicklung von Skizzen bis zu produktionsreifen Tech Packs" }, s2: { title: "Materialbeschaffung", desc: "Sorgfältig ausgewählte Stoffe von vertrauenswürdigen Lieferanten" }, s3: { title: "Produktion", desc: "Handwerkskunst mit moderner Strick-, Schneide- und Näh-Infrastruktur" }, s4: { title: "Qualitätsprüfung", desc: "Mehrstufige Kontrollen in jeder Phase — vom Rohstoff bis zur Verpackung" }, s5: { title: "Passform & Maße", desc: "Präzise Gradierung und Anprobe für Konsistenz aller Größen" }, s6: { title: "Veredelung & Lieferung", desc: "Professionelle Veredelung, Etikettierung und pünktlicher Versand" } },
-    prints: { title1: "Druck- & Effekt-", title2: "Techniken", subtitle: "Wir bieten sieben spezialisierte Druck- und Veredelungsmethoden — für kreative Freiheit, mit der Ihre Marke heraussticht.", t1: { name: "Gummidruck", desc: "Erhabener, strukturierter Finish mit hoher Haltbarkeit und starker Haptik" }, t2: { name: "HD-Druck", desc: "Ultrascharfe HD-Grafiken, die filigrane Designs auf Stoff lebendig machen" }, t3: { name: "AOP (All Over Print)", desc: "Nahtlose, kantenübergreifende Musterabdeckung für eindrucksvolle Designs" }, t4: { name: "Stickerei", desc: "Hochwertige Garnverzierung für luxuriöses, handwerkliches Gefühl" }, t5: { name: "Discharge-Druck", desc: "Weicher Griff durch Farbentzug für gedämpfte, vintage Töne" }, t6: { name: "Puff-Druck", desc: "3D-Reliefeffekt für auffällige Oberflächentextur" }, t7: { name: "Plastisol-Druck", desc: "Kräftige, deckende Farben — ideal für Grafiken auf dunklen Stoffen" } },
-    why: { eyebrow: "Warum wir", title1: "Vertrauen & Komfort", title2: "in jedem Stück", subtitle: "Wir fertigen nicht nur — wir bauen Partnerschaften auf Vertrauen, Konsistenz und gemeinsamem Erfolg.", s1: { title: "Verlässliche Partnerschaft", desc: "Langfristige Beziehungen durch konstante Kommunikation, pünktliche Lieferung und Transparenz.", stat: "End-to-End", statLabel: "Transparenz" }, s2: { title: "Verantwortungsvolle Praktiken", desc: "Wir setzen auf Bio-Baumwolle und umweltbewusste Materialien — kontinuierliche Verbesserung der Nachhaltigkeit.", stat: "Eco-First", statLabel: "Ansatz" }, s3: { title: "Qualitätsgetriebener Prozess", desc: "Jedes Stück durchläuft mehrere Qualitätsphasen — von Garninspektion bis Endverpackung.", stat: "Mehrstufig", statLabel: "QC-Prozess" }, s4: { title: "Wettbewerbsfähiger Wert", desc: "Strategische Preise, die Premiumqualität mit kommerzieller Tragfähigkeit verbinden.", stat: "Smart", statLabel: "Preis" } },
-    buyers: { eyebrow: "Für Käufer", title1: "Was Sie bekommen", title2: "wenn Sie mit uns arbeiten", subtitle: "Ob neue Marke oder etabliertes Label — ThreadKnit liefert die Manufakturkompetenz, um Ihre Vision Wirklichkeit werden zu lassen.", b1: "Flexible MOQ für wachsende und etablierte Marken", b2: "Individuelle Etikettierung, Verpackung und Branding", b3: "Produktentwicklung vom Konzept bis zum Sample", b4: "Breites GSM-Spektrum (140–350) für vielseitige Saisons", b5: "Persönliches Account Management für jeden Käufer", b6: "Pünktliche Lieferung mit regelmäßigen Updates", f1: { label: "Internationaler\nVersand", desc: "Wir liefern weltweit" }, f2: { label: "Engagierter\nSupport", desc: "Persönlicher Account Manager" }, f3: { label: "Kunden-\nzufriedenheit", desc: "Folgeauftragsgetrieben" }, f4: { label: "Eigene\nProduktion", desc: "Volle Qualitätskontrolle" } },
-    tips: { eyebrow: "Strickwaren-Wissen", title1: "Tipps für", title2: "dauerhafte Qualität", subtitle: "Praktische, faktenbasierte Hinweise, um das Beste aus jedem Stück herauszuholen.", t1: { title: "Kalt & auf links waschen", desc: "Kaltes Wasser (~30°C) schont Fasern und Drucke. Auf links wenden reduziert Reibung und verlängert die Lebensdauer." }, t2: { title: "Keine hohe Trocknungshitze", desc: "Hohe Trocknerhitze ist Hauptursache für Baumwoll-Einlauf. Lufttrocknung oder niedrige Hitze halten Passform und Weichheit." }, t3: { title: "GSM beeinflusst Griff & Einsatz", desc: "GSM misst das Stoffgewicht. Leicht (140–180) für warme Tage; Mittel (200–240) ganzjährig premium; Schwer (280–350) ideal für Sweats und Outerwear." }, t4: { title: "Gekämmte & Ring-Spun-Baumwolle", desc: "Gekämmte Baumwolle entfernt kurze Fasern für glatteres, stärkeres Garn. Ring-Spun-Garne sind verdrillt für extra Weichheit und Haltbarkeit." }, t5: { title: "Pre-Shrunk heißt nicht Null-Einlauf", desc: "Auch vorgeschrumpfte Baumwolle kann bei Heißwäsche/Trocknung 1–3% einlaufen. Pflegehinweise beachten." }, t6: { title: "Strickwaren gefaltet lagern", desc: "Bügel können Schultern dehnen und Strickwaren verformen. Falten erhält die Form länger." } },
-    cta: { title: "Bereit für Ihre nächste Kollektion?", desc: "Sprechen wir über Ihre Anforderungen. Von der Stoffwahl bis zur fertigen Bekleidung — wir verwirklichen Ihre Vision.", button: "Kontakt aufnehmen" },
+  eyebrow: "Über ThreadKnit",
+  titleA: "Ihr vertrauenswürdiger Partner",
+  titleB: "für globale Bekleidungsbeschaffung",
+  subtitle: "Ein in Bangladesch ansässiges Einkaufs- und Verbindungsbüro — das internationale Marken mit verifizierten Herstellern in den Bereichen Strick, Webware, Sweater, Leder und Lingerie verbindet.",
+
+  trust: {
+    buyerFocused: { value: "100%", label: "Käuferorientiert", desc: "Jede Entscheidung, die wir treffen, wird von Ihrem Beschaffungserfolg geleitet — nicht von der Bequemlichkeit der Fabrik" },
+    response: { value: "24h", label: "Reaktionszeit", desc: "Schnelle, direkte Kommunikation — Ihre Anfrage wird immer innerhalb eines Werktages bestätigt" },
+    quality: { value: "Mehrstufig", label: "QC-Prozess", desc: "In-Line- und Endkontrollen in jeder Produktionsphase vor dem Versand" },
+    direct: { value: "Direkter", label: "Zugang", desc: "Keine Zwischenstufen, keine Verzögerungen — Sie arbeiten bei jedem Auftrag direkt mit unserem Beschaffungsteam" },
   },
-};
+
+  story: {
+    eyebrow: "Wer Wir Sind",
+    title1: "Bangladesch-Expertise.",
+    title2: "Globale Standards.",
+    p1: "ThreadKnit ist ein in Bangladesch ansässiges Einkaufs- und Verbindungsbüro für Bekleidung, spezialisiert auf End-to-End-Beschaffung für internationale Marken und Einzelhändler. Wir agieren als Ihr Partner vor Ort — verwalten Fabriken, überwachen die Produktion und stellen sicher, dass jeder Auftrag Ihren",
+    p1Bold: "Qualitäts-, Compliance- und Lieferanforderungen entspricht.",
+    p2: "Strick ist unsere Kernstärke. Unser Beschaffungsnetzwerk deckt das gesamte Spektrum ab — von leichtem 140-GSM-Single-Jersey bis zu schwerem 350-GSM-Fleece — sowie aktive Kapazitäten in den Kategorien Webware, Sweater, Leder und Lingerie.",
+    p3: "Wir arbeiten mit einer wachsenden Gemeinschaft internationaler Käufer in Europa, Nordamerika, dem Nahen Osten und darüber hinaus — und gewinnen langfristige Partnerschaften durch konsistente Ausführung, ehrliche Kommunikation und kompromisslose Qualitätsaufsicht.",
+    p4: "Unser Team verbindet tiefes Wissen über die bangladeschische Bekleidungsindustrie mit einer käuferorientierten Denkweise. Wir verstehen, dass der Ruf Ihrer Marke bei jedem Versand auf dem Spiel steht — und wir schützen ihn in jeder Produktionsphase.",
+    promise: "Unser Versprechen",
+  },
+
+  gsm: {
+    eyebrow: "Stoffgewichtsbereich",
+    light: "LEICHT",
+    heavy: "SCHWER",
+    caption: "Gramm pro Quadratmeter",
+  },
+
+  materials: {
+    m1: { name: "100% Bio-Baumwolle", use: "T-Shirts, Basics" },
+    m2: { name: "95% Baumwolle 5% Elastan", use: "Figurbetontes" },
+    m3: { name: "100% Baumwoll-Piqué", use: "Polohemden" },
+    m4: { name: "Baumwoll-French-Terry", use: "Sweatshirts, Hoodies" },
+    m5: { name: "Baumwoll-Fleece", use: "Oberbekleidung, Jacken" },
+    m6: { name: "Baumwoll-Twill", use: "Hosen, Shorts" },
+    m7: { name: "Rippstrick", use: "Kragen, Bündchen, Details" },
+  },
+
+  commitment: {
+    eyebrow: "Unser Versprechen",
+    title1: "Aufgebaut auf",
+    trust: "Vertrauen",
+    title2: ", Geliefert mit",
+    integrity: "Integrität",
+    subtitle: "Dauerhafte Beschaffungspartnerschaften basieren auf Transparenz, Verantwortlichkeit und gemeinsamen Geschäftsinteressen. Hier ist, worauf jeder ThreadKnit-Käufer zählen kann.",
+    i1: {
+      title: "Vollständige Produktionstransparenz",
+      desc: "Sie wissen jederzeit, wo Ihr Auftrag steht. Wir liefern strukturierte Produktionsupdates, Echtzeit-Fabrikfotos und direkten Zugang zu unserem Team — von der Auftragsbestätigung bis zum endgültigen Versand.",
+    },
+    i2: {
+      title: "Unabhängige Qualitätsaufsicht",
+      desc: "Wir führen mehrstufige In-Line- und Endkontrollen in Ihrem Namen durch — nicht im Namen der Fabrik. Inspektionsberichte, Laborergebnisse und Fotos vor dem Versand werden standardmäßig mit jedem Auftrag geteilt.",
+},
+    i3: {
+      title: "Lieferung, auf die Sie planen können",
+      desc: "Pünktliche Lieferung ist eine Verpflichtung, kein Bemühen. Wir erstellen realistische Produktionszeitpläne, halten Fabriken an vereinbarte Termine und melden Risiken proaktiv — bevor sie zu Ihrem Problem werden.",
+    },
+  },
+
+  process: {
+    eyebrow: "So Arbeiten Wir",
+    title1: "End-to-End",
+    title2: "Beschaffungsprozess",
+    subtitle: "Von Ihrem ersten Brief bis zur endgültigen Lieferung — ein strukturierter, verantwortungsvoller Beschaffungsprozess, der Ihre Marke bei jedem Schritt schützt.",
+    s1: { title: "Brief & Entwicklung", desc: "Wir übersetzen Ihren Designbrief in produktionsfertige Tech-Packs, Materialspezifikationen und präzise Kostenschätzungen" },
+    s2: { title: "Fabrikauswahl", desc: "Wir matchen Ihren Auftrag mit verifizierten, compliance-fähigen Fabriken aus unserem kuratierten bangladeschischen Herstellernetzwerk" },
+    s3: { title: "Bemusterung & Freigabe", desc: "Proto-, Passform- und Vorproduktionsmuster werden verwaltet und gegen Ihre Standards geprüft, bevor eine Großbestellung aufgegeben wird" },
+    s4: { title: "Produktionsaufsicht", desc: "Vor-Ort-Verbindung während der Großproduktion — Fortschrittsverfolgung, Problemlösung und Durchsetzung vereinbarter Spezifikationen" },
+    s5: { title: "Qualitätskontrolle", desc: "Unabhängige mehrstufige QC — In-Line-Prüfungen während der Produktion und Endkontrolle vor dem Verpacken der Ware" },
+    s6: { title: "Versand & Dokumentation", desc: "Vollständige Exportdokumentation, Frachtkoordinierung und pünktliche Lieferung an Ihren nominierten Hafen oder Lager" },
+  },
+
+  prints: {
+    title1: "Druck- & Effekt-",
+    title2: "Techniken",
+    subtitle: "Sieben spezialisierte Druck- und Veredelungsmethoden — jede mit einem eigenen Profil für Kosten, MOQ und Waschbeständigkeit, abgestimmt auf Ihr Produkt und Ihren Preispunkt.",
+    t1: { name: "Gummidruck", desc: "Erhabene, strukturierte Oberfläche mit außergewöhnlicher Haltbarkeit und starker Haptik" },
+    t2: { name: "HD-Druck", desc: "Ultraklare HD-Grafiken, die filigrane Designs auf Stoff zum Leben erwecken" },
+    t3: { name: "AOP (All-Over-Print)", desc: "Nahtlose, vollflächige Musterabdeckung für eindrucksvolle Ganzgarment-Designs" },
+    t4: { name: "Stickerei", desc: "Premium-Fadenveredelung für ein luxuriöses, handwerkliches Gefühl bei jedem Kleidungsstück" },
+    t5: { name: "Discharge-Druck", desc: "Weichgriff-Finish, das Farbstoff für gedämpfte, vintage-inspirierte Töne entfernt" },
+    t6: { name: "Puff-Druck", desc: "3D-Reliefeffekt für eine auffällige Oberflächentextur" },
+    t7: { name: "Plastisol-Druck", desc: "Leuchtende, deckende Farben ideal für kräftige Grafiken auf dunklen Stoffen" },
+  },
+
+  why: {
+    eyebrow: "Warum ThreadKnit",
+    title1: "Der Beschaffungspartner,",
+    title2: "den Ihre Marke verdient",
+    subtitle: "Wir platzieren nicht nur Aufträge — wir managen Ergebnisse. Hier ist, was ThreadKnit als langfristigen Beschaffungspartner auszeichnet.",
+    s1: { title: "Verantwortungsvolle Partnerschaft", desc: "Wir agieren als Erweiterung Ihres Einkaufsteams — verantworten Ergebnisse, nicht nur Aufgaben. Konsistente Updates, klare Eskalation und proaktive Problemlösung auf jeder Ebene.", stat: "End-to-End", statLabel: "Verantwortlichkeit" },
+    s2: { title: "Compliance-fähiges Netzwerk", desc: "Unsere Fabrikpartner arbeiten unter international anerkannten sozialen, sicherheits- und produktbezogenen Compliance-Rahmen — mit Dokumentation auf Anfrage.", stat: "Verifiziert", statLabel: "Fabriknetzwerk" },
+    s3: { title: "Unabhängige Qualitätskontrolle", desc: "Unser QC-Team arbeitet für Sie, nicht für die Fabrik. Mehrstufige Inspektionen, Drittlaborprüfungen und detaillierte Vorversandberichte als Standard bei jedem Auftrag.", stat: "Mehrstufig", statLabel: "QC-Prozess" },
+s4: { title: "Kaufmännische Intelligenz", desc: "Transparente Kalkulation, ehrliche Lieferzeitbewertung und marktgerechte Preisgestaltung — damit Ihre Margen geschützt sind und Ihre Planung in der Realität verwurzelt ist.", stat: "Transparent", statLabel: "Kalkulation" },
+  },
+
+  buyers: {
+    eyebrow: "Für Käufer",
+    title1: "Was Sie erhalten,",
+    title2: "wenn Sie mit uns arbeiten",
+    subtitle: "Ob Sie Ihren ersten Auftrag in Bangladesch aufgeben oder eine bestehende Lieferkette konsolidieren — ThreadKnit bietet das lokale Know-how und die käuferseitige Verantwortlichkeit, um es richtig zu machen.",
+    b1: "Flexible MOQ in den Kategorien Strick, Webware, Sweater, Leder und Lingerie",
+    b2: "Individuelles Labeling, Hangtags, Verpackung und Branding durchgängig abgewickelt",
+    b3: "Vollständiger Bemusterungsservice — Proto, Passform, Größensatz und Vorproduktion",
+    b4: "Breiter GSM-Bereich (140–350) für saisonale und ganzjährige Produktentwicklung",
+    b5: "Dedizierter Account Manager für jede Käuferbeziehung",
+    b6: "Strukturierte Produktionsberichte und pünktliche Lieferung als Standard",
+    f1: { label: "Globale\nLieferung", desc: "Versand an Häfen weltweit" },
+    f2: { label: "Dedizierter\nAccount Manager", desc: "Ein Ansprechpartner, immer" },
+    f3: { label: "Käuferseitige\nQC", desc: "Unabhängig, nicht fabrikgeführt" },
+    f4: { label: "Compliance-\nfertig", desc: "Dokumentation auf Anfrage" },
+  },
+
+  tips: {
+    eyebrow: "Beschaffungsintelligenz",
+    title1: "Was jeder Käufer",
+    title2: "wissen sollte",
+    subtitle: "Technische und kaufmännische Einblicke, die Ihnen helfen, klüger zu beschaffen, präziser zu spezifizieren und Ihre Marke in jeder Produktionsphase zu schützen.",
+    t1: { title: "GSM ist eine kaufmännische Entscheidung", desc: "Das Stoffgewicht beeinflusst direkt die Einzelhandelspositionierung, saisonale Eignung und die Wahrnehmung des Endkunden. Das frühzeitige Festlegen des GSM — abgestimmt auf Ihren Markt und Preispunkt — verhindert kostspielige Überarbeitungen in der Bemusterungsphase." },
+    t2: { title: "Garnspezifikation bestimmt Langlebigkeit", desc: "Gekämmte und Ring-Spun-Baumwolle liefert messbar besseres Griffgefühl und Waschbeständigkeit. Die Garnkonstruktion in Ihrem Tech-Pack zu spezifizieren — nicht nur den Fasergehalt — ist der Unterschied zwischen einem Wiederholkaufartikel und einer Rückgabe nach einer Saison." },
+    t3: { title: "Einlauf ist eine Spezifikation, keine Überraschung", desc: "Auch vorgeschrumpfte Baumwolle kann nach dem Waschen noch 1–3% einlaufen. Klare Einlauftoleranzen in Ihrer Bestellung festzulegen und per Wäschetest vor der Großproduktion zu bestätigen, schützt Ihre Größenkonsistenz und reduziert Kundenrücksendungen." },
+    t4: { title: "Druckverfahren beeinflusst Marge und Haltbarkeit", desc: "Jede Technik — HD, AOP, Puff, Discharge, Plastisol — hat unterschiedliche Kosten-, MOQ- und Waschbeständigkeitsimplikationen. Das Druckverfahren auf Endverwendung und Preispunkt abzustimmen ist eine Beschaffungsentscheidung, keine Stilentscheidung." },
+    t5: { title: "Pflegekennzeichnung ist marktspezifisch", desc: "EU-, US- und australische Märkte haben jeweils unterschiedliche Anforderungen für Fasergehaltangaben und Pflegekennzeichnung. Die Compliance in der Tech-Pack-Phase zu bestätigen — nicht nach der Produktion — vermeidet Versandsperren und kostspielige Neukennzeichnungen." },
+    t6: { title: "Stofftests schützen Ihre Marke", desc: "REACH-, Oeko-Tex- und CPSC-Schadstofftests sind Standardanforderungen für die meisten Einzelhändler auf Industriemärkten. Prüfberichte vor der Großstoffbestellung anzufordern ist für Marken, die in großem Maßstab versenden, unverhandelbar." },
+  },
+
+  cta: {
+    title: "Bereit, klüger zu beschaffen?",
+    desc: "Vom ersten Brief bis zum endgültigen Versand — wir managen jedes Detail, damit Ihre Marke genau das erhält, was vereinbart wurde, pünktlich, jedes Mal.",
+    button: "Gespräch beginnen",
+  },
+},
+  }
 
 const ar: Locale = {
   ...en,
